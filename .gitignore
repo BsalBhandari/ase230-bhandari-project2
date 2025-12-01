@@ -1,0 +1,41 @@
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE
+.idea/
+.vscode/
+.fleet/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Laravel
+code/vendor/
+code/node_modules/
+code/storage/logs/*
+code/storage/framework/cache/*
+code/storage/framework/sessions/*
+code/storage/framework/views/*
+code/.env
+code/database/database.sqlite
+code/bootstrap/cache/*
+code/public/hot
+code/public/storage
+code/storage/*.key
+
+# Hugo
+presentation/public/
+presentation/resources/_gen/
+presentation/themes/PaperMod/.git/
+
+# Composer
+code/composer.phar
+

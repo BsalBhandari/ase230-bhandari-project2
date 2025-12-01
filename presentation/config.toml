@@ -1,0 +1,35 @@
+baseURL = 'https://bsalbhandari.github.io/ase230-bhandari-project2/'
+languageCode = 'en-us'
+title = 'ASE230 Project 2 - Laravel REST API'
+theme = 'PaperMod'
+
+[params]
+  author = 'Bishal Bhandari'
+  description = 'Laravel REST API with Docker deployment and Hugo documentation'
+  keywords = ['Laravel', 'REST API', 'Docker', 'Hugo', 'ASE230']
+  
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "api-tutorial"
+    name = "API Tutorial"
+    url = "/api-tutorial/"
+    weight = 2
+  [[menu.main]]
+    identifier = "deployment"
+    name = "Deployment"
+    url = "/deployment/"
+    weight = 3
+  [[menu.main]]
+    identifier = "portfolio"
+    name = "Portfolio"
+    url = "/portfolio/"
+    weight = 4
+
+[params.social]
+  GitHub = "https://github.com/BsalBhandari"
+
